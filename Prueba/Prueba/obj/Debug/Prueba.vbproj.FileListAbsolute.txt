@@ -1,0 +1,12 @@
+C:\Users\melva\Desktop\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\melva\Desktop\Prueba\Prueba\bin\Debug\Prueba.exe
+C:\Users\melva\Desktop\Prueba\Prueba\bin\Debug\Prueba.pdb
+C:\Users\melva\Desktop\Prueba\Prueba\bin\Debug\Prueba.xml
+C:\Users\melva\Desktop\Prueba\Prueba\obj\Debug\Prueba.vbproj.AssemblyReference.cache
+C:\Users\melva\Desktop\Prueba\Prueba\obj\Debug\Prueba.Form1.resources
+C:\Users\melva\Desktop\Prueba\Prueba\obj\Debug\Prueba.Resources.resources
+C:\Users\melva\Desktop\Prueba\Prueba\obj\Debug\Prueba.vbproj.GenerateResource.cache
+C:\Users\melva\Desktop\Prueba\Prueba\obj\Debug\Prueba.vbproj.CoreCompileInputs.cache
+C:\Users\melva\Desktop\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\melva\Desktop\Prueba\Prueba\obj\Debug\Prueba.xml
+C:\Users\melva\Desktop\Prueba\Prueba\obj\Debug\Prueba.pdb
