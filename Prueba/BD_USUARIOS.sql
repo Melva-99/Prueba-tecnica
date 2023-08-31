@@ -8,7 +8,7 @@ Sexo char(1)
 INSERT INTO Sexos(Sexo) values ('F'),('M')
 
 create table Usuarios(
-Id int primary key IDENTITY(0,1),
+Id int primary key IDENTITY(1,1),
 Nombre varchar(30),
 Apellido varchar (30),
 Identidad numeric(13),
@@ -30,12 +30,11 @@ CREATE PROCEDURE Insertar
 	@Usuario varchar(30)
 AS
 BEGIN
-	IF NOT EXISTS (SELECT Identidad from Usuarios WHERE Identidad = Identidad)
+	IF NOT EXISTS (SELECT Identidad from Usuarios WHERE Identidad = @Identidad)
 		INSERT INTO Usuarios(Nombre,Apellido,Identidad,FKSexo,Celular,Correo,Usuario)
 		VALUES(@Nombre,@Apellido,@Identidad,@Sexo,@Celular,@Correo,@Usuario)
 	ELSE
-		RAISERROR('Ya existe ese usuario',16,1)
-		
+		RAISERROR('Ya existe ese usuario',16,1)		
 END;
 
 
@@ -66,3 +65,5 @@ AS BEGIN
 DELETE FROM [dbo].[Usuarios] 
 	WHERE Id = @Id
 END
+
+
